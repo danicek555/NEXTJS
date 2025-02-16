@@ -1,3 +1,17 @@
+//SERVER SIDE DATA FETCHING IS SO MUCH MORE BETTER than client fetching
+//server side fetching has LESS CODE and the logic simplified
+//imrpoves the DX - Developer Experience
+//improved initial lode time - reduces the FCP (First contentful paint), it is faster
+//better SEO
+//server side is closer to the database
+//automatic request deduplacation - reduces unnussesary https calls, stops duplicate requests
+//improved security - sensitive information
+//reduced network waterfall - server side can pararelly do the https requests
+//WITH EVERY call do the server side - database, direct database calls
+//server side will work even the javascript is disabled in the browser
+
+//Client side data fetching
+//the client sees white page and then the data is fetched
 import React from "react";
 
 async function getAlbums() {

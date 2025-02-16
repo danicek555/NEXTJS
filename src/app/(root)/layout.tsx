@@ -12,4 +12,6 @@ const layout = ({ children }: { children: React.ReactNode }) => {
 export default layout;
 
 //we use () for file if we want to organize layouts for different pages but dont want to change our ROOT /
-//it is only /about not /root/abotu
+//it is only /about not /root/about
+//name: Rout Group
+//even it will not efect the url you can still make layout.tsx inside

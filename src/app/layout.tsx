@@ -7,6 +7,8 @@ export const metadata: Metadata = {
 };
 
 //everything inside this layout is on EVERY page because it is a layout parent of every website
+//for every page you can have different layout but this is the main
+//
 export default function RootLayout({
   children,
 }: Readonly<{
